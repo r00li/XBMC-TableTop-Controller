@@ -15,6 +15,12 @@ Source code for both Java application and Arduino controller is provided here. P
 Software: 
 Software currently includes a simple tray-GUI that enables you to set the connection settings for the controller. Controller is usually connected to the computer where the XBMC is running so localhost should be used. You can also control a network player if you want. The bottom four buttons currently don't have a function pre-programmed. You'll need to add a function yourself if you want to use them. Check out the XBMC JSON API for the list of supported commands.
 
+Dependencies:
+You'll need two Java libraries to compile this project:
+JsonRPC2 Base and JsonRPC2 Client: http://software.dzhuvinov.com/json-rpc-2.0-client.html
+JSSC: http://code.google.com/p/java-simple-serial-connector/
+
+The required .jar files are included in the /dist/lib directory so you can use those.
 
 Contact:
 If you have any questions about this project, you can contact me at: roli.r00li@gmail.com
