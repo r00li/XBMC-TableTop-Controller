@@ -1,0 +1,20 @@
+XBMC TableTop Controller 
+version 1.0
+Copyright 2013 Andrej Rolih
+http://www.r00li.com
+
+
+About:
+This is a simple table-top multimedia controller. It is design to interface with the XBMC media player. It uses a 24x2 LCD character display to show current playback information and offers 11 buttons for playback control.
+
+Building instructions:
+You will need to make a PCB - I recommend making it at home with the toner transfer method. After you have the PCB and you have mounted all the components (you should upload the sketch to the ATMega chip before - use a DIP socket so you can easily remove it from the PCB) (parts list is in the PCB folder) you'll need to make a case. A case design is provided. I included the original sketchup file and the stl files that should be ready for 3D printing. You'll need 4 M3 screws and 4 M3 spacers (their length depends on the components used - cut them to minimal length) to mount the PCB in place. 
+
+Source code for both Java application and Arduino controller is provided here. PCB schematic is also provided. PCB was created using diptrace - diptrace is free program available here: http://www.diptrace.com
+
+Software: 
+Software currently includes a simple tray-GUI that enables you to set the connection settings for the controller. Controller is usually connected to the computer where the XBMC is running so localhost should be used. You can also control a network player if you want. The bottom four buttons currently don't have a function pre-programmed. You'll need to add a function yourself if you want to use them. Check out the XBMC JSON API for the list of supported commands.
+
+
+Contact:
+If you have any questions about this project, you can contact me at: roli.r00li@gmail.com
